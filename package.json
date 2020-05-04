@@ -1,0 +1,24 @@
+{
+  "name": "disclose-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "keywords": [],
+  "author": "Jesper Birkestrømm <jesper@birkestroem.dk>",
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "mocha": "7.1.1",
+    "prettier": "2.0.5",
+    "pretty-quick": "^2.0.1",
+    "unexpected": "11.14.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}

@@ -16,6 +16,10 @@
     "pretty-quick": "^2.0.1",
     "unexpected": "11.14.0"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/birkestroem/disclose-data"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"

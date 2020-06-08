@@ -1,6 +1,6 @@
 {
   "name": "disclose-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -17,8 +17,8 @@
     "unexpected": "11.14.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/birkestroem/disclose-data"
+    "type": "git",
+    "url": "https://github.com/birkestroem/disclose-data"
   },
   "husky": {
     "hooks": {
